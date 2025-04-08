@@ -38,6 +38,12 @@ dependencies:
   # Library สำหรับการอ่าน Barcode/QR Code
   mobile_scanner: ^6.0.7
 
+  # Library สำหรับเชื่อมต่อ Http API
+  dio: ^5.8.0+1
+
+  # Library สำหรับการเก็บข้อมูลในเครื่อง
+  shared_preferences: ^2.5.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
