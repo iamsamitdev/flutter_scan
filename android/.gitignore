@@ -1,14 +1,14 @@
-gradle-wrapper.jar
-/.gradle
-/captures/
-/gradlew
-/gradlew.bat
-/local.properties
+.gradle/
+captures/
+local.properties
 GeneratedPluginRegistrant.java
 .cxx/
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/to/reference-keystore
+# ไม่ควร ignore gradlew และ gradlew.bat
+# gradlew
+# gradlew.bat
+
+# Keystore (อย่าใส่ขึ้น Git เด็ดขาด)
 key.properties
 **/*.keystore
 **/*.jks
